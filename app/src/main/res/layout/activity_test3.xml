@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test3">
+
+    <LinearLayout
+        android:id="@+id/ll0"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submit_area">
+
+        <ToggleButton
+            android:textAllCaps="false"
+            android:id="@+id/wd0"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:textAllCaps="false"
+            android:id="@+id/wd1"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:textAllCaps="false"
+            android:id="@+id/wd2"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:textAllCaps="false"
+            android:id="@+id/wd3"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:textAllCaps="false"
+            android:id="@+id/wd4"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:textAllCaps="false"
+            android:id="@+id/wd5"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:textAllCaps="false"
+            android:id="@+id/wd6"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:textAllCaps="false"
+            android:id="@+id/wd7"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:textAllCaps="false"
+            android:id="@+id/wd8"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:textAllCaps="false"
+            android:id="@+id/wd9"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/return_area">
+
+        <ToggleButton
+            android:id="@+id/e0"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton"
+
+            android:textColor="#455A64" />
+
+        <ToggleButton
+            android:id="@+id/e1"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/e2"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/e3"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/e4"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/e5"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/e6"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/e7"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/e8"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/e9"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="ToggleButton" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_area"
+        android:layout_width="140dp"
+        android:layout_height="52dp"
+        android:text="确认"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/return_area"
+        android:layout_width="140dp"
+        android:layout_height="52dp"
+        android:text="返回"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
